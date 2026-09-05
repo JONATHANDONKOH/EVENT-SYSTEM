@@ -1,0 +1,116 @@
+/* Form container */
+.Form {
+  width: 400px;
+  height: 600px;
+  background-color: antiquewhite;
+  position: absolute;        /* centers relative to page */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 10px solid lab(89.42% 7.21 2.61); /* corrected border syntax */
+  font-family: sans-serif;
+  font-size: 14px;
+  padding: 20px;             /* adds breathing space inside */
+  box-sizing: border-box;    /* ensures padding doesn’t expand width/height */
+}
+
+/* Heading */
+.createaccount {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Input fields */
+.Form input {
+  width: 100%;               /* fills container width */
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+/* Labels */
+.Form label {
+  font-weight: 500;
+  display: block;            /* ensures label sits above input */
+}
+
+/* Button */
+.Form button {
+  width: 100%;
+  height: 35px;
+  background-color: #333;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.Form button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+/* Login form container */
+.LoginForm {
+  width: 400px;
+  background-color: antiquewhite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 10px solid lab(89.42% 7.21 2.61);
+  font-family: sans-serif;
+  font-size: 14px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+/* Heading */
+.Login {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Labels */
+.LoginForm label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+/* Inputs */
+.LoginForm input {
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button */
+.LoginForm button {
+  width: 100%;
+  height: 35px;
+  background-color: #333;
+  color: white;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.LoginForm button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
